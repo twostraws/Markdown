@@ -1,0 +1,4 @@
+module Discount {
+	umbrella header "discount.h"
+	link "markdown"
+}
