@@ -89,7 +89,7 @@ if let md = Markdown(string: "# Heading 1\nHello, world!", options: .generateTab
 
 The output from that will be:
 
-```
+```html
 <ul>
  <li><a href=\"#Heading-1\">Heading 1</a></li>
 </ul>
@@ -105,7 +105,7 @@ if let md = Markdown(string: "<style> body { margin: 0; } </style>\n# Hello, wor
 
 The output from that will be:
 
-```
+```html
 <style> body { margin: 0; } </style>
 ```
 
